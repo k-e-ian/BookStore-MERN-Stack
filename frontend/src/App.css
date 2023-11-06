@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "DrWeb Bold";
+  src: url("https://clevertech.biz/_next/static/media/drweb-bold.1d8c9d14.woff")
+    format("woff");
+  /* You can add other font formats (e.g., woff2) for better browser compatibility */
+}
+
+@font-face {
+  font-family: "Basis Grotesque Regular Pro";
+  src: url("https://clevertech.biz/_next/static/media/basis-grotesque-regular-pro.1e211fad.woff2")
+    format("woff2");
+  /* Add additional font formats as needed for browser compatibility */
+}
+
+body {
+  font-family: "Basis Grotesque Regular Pro", "karla";
+  background-color: #56704c;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.header-title {
+  margin: 20px;
+}
+
+.header-create-book {
+  color: #bae4ac;
+  margin: 20px;
+  font-size: 20px;
+}
+
+.table {
+  width: 100%;
+  border-spacing: 0;
+  font-family: "DrWeb Bold";
+  border: 0.5px solid #1a1a1a;
+}
+
+.table th,
+.table td {
+  color: #1a1a1a;
+  border: 1px solid #1a1a1a;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  border-bottom: 1px solid #bae4ac;
+  border-top: 1px solid #bae4ac;
+}
+
+.table tr:hover {
+  background-color: #bede5e;
+}
+
+.table a {
+  text-decoration: none;
+  color: #333;
+}
+
+.operation-container {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+
+.show-book {
+  color: #bae4ac;
+}
+
+.show-book:hover {
+  color: #1a1a1a;
+}
+
+.edit-book {
+  color: #bae4ac;
+}
+
+.edit-book:hover {
+  color: #1a1a1a;
+}
+
+.delete-book {
+  color: rgb(141, 30, 30);
+}
+
+.delete-book:hover {
+  color: rgb(170, 36, 36);
+}
+
+.back-button-container {
+  background-color: #bae4ac;
+  border-radius: 10px;
+  max-width: max-content;
+  display: flex;
+  margin-left: auto;
+}
+
+.back-button-container:hover {
+  background-color: #bede5e;
+}
+
+.back-button {
+  color: #1a1a1a;
+  padding: 7px;
+}
+
+.show-profile {
+  position: relative;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+hr {
+  color: #bae4ac;
+}
+
+.book-title {
+  margin: auto;
+  color: #bede5e;
+  justify-content: center;
+  display: flex;
+}
